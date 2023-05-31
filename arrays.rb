@@ -17,3 +17,7 @@ matches[2]
 # the above example would return 5, even though 5 is the 3rd element of the array, because the indexes start at 0, so 5 is at index 2
 array_name[0]
 # the above example will return the first element in any array
+
+# delete_at will delete the element that is at the index provided in the () when calling the method, and will return that element
+# in this case, the first false element in the array will be deleted and will return false
+choices.delete_at(1)
