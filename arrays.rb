@@ -10,3 +10,10 @@ matches.push(12)
 money.shift
 # calling unshift will add any elements in () to the front of the array, in this case true will be put as index 0 and the rest will be shifted accordingly
 choices.unshift(true)
+
+# indexes are what we use in coding to classify the position of the elements in the array
+# the indexes start at 0, meaning the first element does not have an index of 1 but of 0
+matches[2]
+# the above example would return 5, even though 5 is the 3rd element of the array, because the indexes start at 0, so 5 is at index 2
+array_name[0]
+# the above example will return the first element in any array
